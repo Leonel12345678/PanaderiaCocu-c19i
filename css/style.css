@@ -1,0 +1,22 @@
+.efectoimg:hover{
+    filter:opacity(50%);
+
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+@media all and (max-width: 576px){
+    .img-responsive{
+        height:250px ;
+        object-fit: cover;
+    }
+
+    .centrar{
+        text-align: center;
+    }
+}
+
+.borderParisBrest{
+    border-radius: 30%;
+}
